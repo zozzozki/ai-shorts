@@ -1,0 +1,9 @@
+name = "ai-shorts-drive-worker"
+main = "src/index.js"
+compatibility_date = "2026-10-15"
+# Replace the placeholder below with your Cloudflare Account ID or set it via GitHub Secrets in CI.
+account_id = "${CF_ACCOUNT_ID}"
+
+[[r2_buckets]]
+binding = "AI_SHORTS_BUCKET"
+bucket_name = "ai-shorts-drive"
